@@ -20,8 +20,10 @@ ENV INSTALLED_TOOLS="\
     wget \
     bind-tools \
     jq \
+    zip \
+    tar \
+    mc \
     bash"
-
 
 
 RUN apk update && \
