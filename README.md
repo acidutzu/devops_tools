@@ -13,16 +13,24 @@ Hi there, good to see you!
 ********** 
 To use the tools docker exec into the container/pod:
 
-```docker exec -it deops_tools /bin/bash```
+```
+docker exec -it deops_tools /bin/bash
+```
  or 
-```kubectl exec -n namespace -it podname -- bash```
+```
+kubectl exec -n namespace -it podname -- bash
+```
 
 
 ### to build the project
-```docker build -t devops_tools:1.7 .```
+```
+docker build -t devops_tools:1.7 .
+```
 
 ### to deploy de project
-```docker run -d -p 5000:5000 -p 8888:8888 --name devops_tools devops_tools:1.7```
+```
+docker run -d -p 5000:5000 -p 8888:8888 --name devops_tools devops_tools:1.7
+```
 
 ### to access the project
 
